@@ -1,6 +1,10 @@
 *.log
 *.pot
 *.pyc
+*.idea
+idea
+/.idea
+/idea
 __pycache__/
 local_settings.py
 db.sqlite3
