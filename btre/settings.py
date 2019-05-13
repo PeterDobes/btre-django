@@ -145,12 +145,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-# Email config
-EMAIL_HOST = 'smtp.azet.sk'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'crossx6@azet.sk'
-EMAIL_HOST_PASSWORD = '32756cross'
-
 try:
     from .local_settings import *
 except ImportError:
